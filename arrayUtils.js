@@ -1,3 +1,11 @@
+const biggest = (tab) => {
+  let big = 0
+  for(let i = 0; i < tab.length; i++){
+    tab[i] > big ? big = tab[i] : ''
+  }
+  return big
+}
+
 const sortAscend = (tab) => {
   let tmp
   
@@ -30,5 +38,6 @@ const makeUnique = (tab) => {
   return unique
 }
 
+console.log(biggest([99, 100, 101, 1]))
 console.log(sortAscend([99, 100, 101, 1]))
 console.log(makeUnique([1, 2, 1, 3, 2, 4, 5, 7, 5, 1]))
