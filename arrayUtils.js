@@ -38,6 +38,6 @@ const makeUnique = (tab) => {
   return unique
 }
 
-console.log(biggest([99, 100, 101, 1]))
+console.log(biggest([99, 100, 101, 1, 200, 365]))
 console.log(sortAscend([99, 100, 101, 1]))
 console.log(makeUnique([1, 2, 1, 3, 2, 4, 5, 7, 5, 1]))
