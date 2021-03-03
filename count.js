@@ -1,6 +1,6 @@
 const count = (min, max, step) => {
 
-  for(;min < max; min += step){
+  for(;min <= max; min += step){
     console.log(min)
   }
 }
