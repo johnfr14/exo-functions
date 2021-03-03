@@ -2,4 +2,4 @@ const typeOf = (type) => {
   return typeof type
 }
 
-console.log(typeOf('coucou'))
+console.log(typeOf(10))
